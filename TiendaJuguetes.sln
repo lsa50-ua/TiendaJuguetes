@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaJuguetes", "TiendaJuguetes\TiendaJuguetes.csproj", "{9EF30206-3599-4DFD-8C4B-F9EA0427416B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{226FC240-8FDB-48FE-9791-A70CE15FCCCC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library", "library\library.csproj", "{C136E2FA-B668-4B48-84DE-E6C1EAC3E9B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF30206-3599-4DFD-8C4B-F9EA0427416B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF30206-3599-4DFD-8C4B-F9EA0427416B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF30206-3599-4DFD-8C4B-F9EA0427416B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF30206-3599-4DFD-8C4B-F9EA0427416B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C136E2FA-B668-4B48-84DE-E6C1EAC3E9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C136E2FA-B668-4B48-84DE-E6C1EAC3E9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C136E2FA-B668-4B48-84DE-E6C1EAC3E9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C136E2FA-B668-4B48-84DE-E6C1EAC3E9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C136E2FA-B668-4B48-84DE-E6C1EAC3E9B0} = {226FC240-8FDB-48FE-9791-A70CE15FCCCC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA4BD6F-A15E-4CF9-B17B-22CA1B9C3DD7}
+	EndGlobalSection
+EndGlobal

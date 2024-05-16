@@ -1,0 +1,90 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TiendaJuguetesMaster.Master.cs" Inherits="TiendaJuguetes.Site1" %>
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="global_style.css" />
+        <link rel="stylesheet" href="estilosDefault.css" />
+        <link href="Registro.css" rel="stylesheet" />
+        <link href="footer_style.css" rel="stylesheet" />
+        <title>HADA TOY's</title>
+    </head>
+    <body>
+         <form id="form1" runat="server">
+            <header runat="server">
+                <asp:Image ID="logo" runat="server"  ImageUrl="~/fotos/Logo.png" />
+           
+                    <asp:Menu ID="MainMenu" runat="server" Orientation="Horizontal" Font-Size="0.8em" StaticSubMenuIndent="10px"  DynamicHorizontalOffset="2" BackColor="#FFFBD6" Font-Names="serif" ForeColor="#990000" StaticEnableDefaultPopOutImage="False"> 
+                    <DynamicHoverStyle BackColor="#990000" ForeColor="White" BorderStyle="Ridge" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#FFFBD6" BorderStyle="Ridge" BorderColor="Black"/>
+                    <DynamicSelectedStyle BackColor="#FFCC66"  />
+                
+                        <Items>
+                            <asp:MenuItem NavigateUrl="Default.aspx" Text="Inicio" ToolTip="Inicio" Value="Inicio">
+                            </asp:MenuItem>
+
+                            <asp:MenuItem NavigateUrl="" Text="Categoria" ToolTip="Categoria" Value="Categorias">
+                                <asp:menuitem navigateurl="Categoria.aspx?Categoria=1"    text="Accion"       tooltip="Accion"/>
+                                <asp:menuitem navigateurl="Categoria.aspx?Categoria=2"    text="Construccion" tooltip="Construccion"/>
+                                <asp:menuitem navigateurl="Categoria.aspx?Categoria=3"    text="Coches"       tooltip="Coches"/>
+                                <asp:menuitem navigateurl="Categoria.aspx?Categoria=4"    text="Familiar"     tooltip="Familiar"/>
+                                <asp:menuitem navigateurl="Categoria.aspx?Categoria=5"    text="Disfraces"    tooltip="Disfraces"/>
+                                <asp:menuitem navigateurl="Categoria.aspx?Categoria=6"    text="Deportes"     tooltip="Deportes"/>
+                            </asp:MenuItem>
+
+                            <asp:MenuItem NavigateUrl="AreaPersonal.aspx" Text="Area Personal" ToolTip="Area Personal" Value="AreaPersonal">
+                            </asp:MenuItem>
+
+                            <asp:MenuItem NavigateUrl="Carrito.aspx" Text="Mi carrito" ToolTip="Mi carrito" Value="Carrito">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="InicioSesion.aspx" Text="Iniciar Sesion" ToolTip="Iniciar Sesion" Value="IniciarSesion">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="AgregarProducto.aspx" Text="Nuevo Producto" ToolTip="Nuevo Producto" Value="AgregarProducto">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="CerrarSesion.aspx" Text="Cerrar Sesion" ToolTip="Cerrar Sesion" Value="CerrarSesion" ></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                    </asp:Menu>
+
+            </header>
+            <div id="cuerpo">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <!--Definido en Default.aspx -->
+                    </asp:ContentPlaceHolder>
+                    <br />
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <p>WebSite to buy toys online</p>
+                    <ul class="redes">
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <img src="fotofooter/facebook.png" alt="facebook" />
+                        <li><a href="https://www.twitter.com/">Twitter</a></li>
+                        <img src="fotofooter/twitter.png" alt="twitter" />
+                        <li><a href="https://www.instagram.com/">Instagram</a></li>
+                        <img src="fotofooter/instagram.jpg" alt="instagram" />
+                        <li><a href="https://www.snapchat.com/">Snapchat</a></li>
+                        <img src="fotofooter/snap.png" alt="snapchat" />
+                        <li><a href="https://www.gmail.com/">Correo</a></li>
+                        <img src="fotofooter/correo.png" alt="correo" />
+                        <li><a href="https://www.whatsapp.com/"</a>Telefono</li>
+                        <img src="fotofooter/telefono.png" alt="telefono" />
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy; <a href="#">HADA developper</a>  </p>
+                </div>
+          </footer>
+        </form>
+    </body>
+</html>
+
+
+
+
+

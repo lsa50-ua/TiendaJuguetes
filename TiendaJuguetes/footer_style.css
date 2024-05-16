@@ -1,0 +1,50 @@
+﻿.﻿footer {
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    background-color: beige;
+    padding-top: 50px;
+    color: black;
+}
+
+.footer-content {
+    text-align: center;
+    align-items: flex-start;
+}
+
+    .footer-content p {
+        color: black;
+        font-style: italic;
+        font-size: x-large;
+        text-align: center;
+    }
+
+.redes {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+    .redes a {
+        text-decoration: none;
+        color: black;
+        font-style: italic;
+    }
+
+    .redes img {
+        height: auto;
+        width: 20px;
+    }
+
+.footer-bottom {
+}
+
+    .footer-bottom a {
+        text-decoration: none;
+        color: black;
+        font-style: italic;
+    }

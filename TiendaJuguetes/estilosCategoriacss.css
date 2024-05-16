@@ -1,0 +1,42 @@
+﻿.orderSelector {
+    text-align: initial;
+    border: outset;
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.listado {
+    text-align: center;
+}
+
+.fotoProducto {
+    margin: auto;
+    padding: 5px;
+}
+
+img {
+    vertical-align: text-bottom;
+}
+
+.producto {
+    display: inline-block;
+    width: 280px;
+    text-align: center;
+}
+
+.tituloProducto {
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.zoom {
+    transition: transform 0.5s;
+}
+
+
+    .zoom:hover {
+        transform: scale(1.5);
+    }

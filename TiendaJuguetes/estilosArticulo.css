@@ -1,0 +1,35 @@
+﻿#todoArticulo{
+    display:inline-block;
+}
+
+#jugueteContainer {
+    border-style:outset;
+    text-align:center;
+    width:300px;
+    float:left;
+    margin-left:5px;
+}
+
+#imageContainer {
+    display: inline-block;
+}
+
+#infoContainer {
+    display: inline-block;
+    width:inherit;
+    background-color:beige;
+    width:99.9%;
+}
+
+#propiedadesArticulo{
+    display:inline-block;
+    margin:30px;
+}
+
+.carArticulo{
+    display:list-item;
+    margin:10px;
+    font-style: italic;
+    font-size: x-large;
+}
+

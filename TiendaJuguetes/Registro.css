@@ -1,0 +1,82 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.form-register {
+    width: 500px;
+    background: #A2B4F9; 
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    font-family: Calibri;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    height: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.form-login {
+    width: 500px;
+    background: #A2B4F9;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Calibri;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form-login h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form-login h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.controls {
+    width: 100%;
+    background: #CFD2DD;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+.form-register .botons{
+    width:100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color:white;
+    margin: 60px 0;
+    font-size: 16px;
+}
+
+.form-login .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 60px 0;
+    font-size: 16px;
+}
+
